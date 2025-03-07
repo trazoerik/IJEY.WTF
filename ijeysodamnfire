@@ -1,0 +1,12 @@
+_G.Key = ""
+local userkey = "site"
+local blacklist = "site"
+local key = game:HttpGet(userkey, true)
+local banned = game:HttpGet(blacklist, true)
+plr = game.Players.LocalPlayer
+--f
+if string.find(key, plr.Name) then 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/trazoerik/ijeyondiscord/refs/heads/main/ijeyondiscord",true))()
+else
+    plr:Kick("Pls suicide")
+end
