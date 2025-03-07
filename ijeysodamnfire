@@ -1,6 +1,5 @@
-_G.Key = ""
-local userkey = "site"
-local blacklist = "site"
+local userkey = "https://raw.githubusercontent.com/trazoerik/key.wtf/refs/heads/main/KEY.WTH"
+local blacklist = "https://raw.githubusercontent.com/trazoerik/blacklisted.wth/refs/heads/main/BLACKLISTED.WTH"
 local key = game:HttpGet(userkey, true)
 local banned = game:HttpGet(blacklist, true)
 plr = game.Players.LocalPlayer
